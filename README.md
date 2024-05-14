@@ -1,11 +1,21 @@
-# SQL-Employee-Tracker
-User Story
+# Description:
+A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.
 
+# Table of Content
+* Challenge Elements
+* installation
+* usage
+* Link
+* licence
+* contribution
+
+# Challenge Elements:
+User Story
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
 SO THAT I can organize and plan my business
-Acceptance Criteria
 
+Acceptance Criteria
 GIVEN a command-line application that accepts user input
 WHEN I start the application
 THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
@@ -23,3 +33,27 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+# Installation
+
+* Enter git clone https: to clone the repository.
+* Install the dependencies using npm install.
+
+# Usage
+
+* Use psql -U postgres to see the tables.
+* Then run the command node index.js to run the software.
+* The command prompt will begin on your terminal.
+
+# link to walkthrough video 
+
+
+# Licence
+
+Copyright (c) Saba Pervez. All rights reserved.
+
+Licensed under the MIT license.
+
+# Contributions
+We'd love for you to contribute! In order to do so, fork this repository. Your pull request will need approval in order to merge to main.
+
