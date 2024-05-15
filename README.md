@@ -5,7 +5,7 @@ A command-line application from scratch to manage a company's employee database,
 * Challenge Elements
 * installation
 * usage
-* Link
+* link
 * licence
 * contribution
 
@@ -36,16 +36,17 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 # Installation
 
-* Enter git clone https: to clone the repository.
+* Enter git clone https://github.com/saba0705/SQL-Employee-Tracker to clone the repository.
 * Install the dependencies using npm install.
 
 # Usage
 
 * Use psql -U postgres to see the tables.
-* Then run the command node index.js to run the software.
+* Then run the command node index.js to run the app.
 * The command prompt will begin on your terminal.
 
 # link to walkthrough video 
+https://app.screencastify.com/v3/watch/iYglROkkHDfNTJQk153W 
 
 
 # Licence
