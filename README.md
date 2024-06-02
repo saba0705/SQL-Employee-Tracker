@@ -41,7 +41,10 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 # Usage
 
-* Use psql -U postgres to see the tables.
+* Use psql -U postgres
+* Enter \i db/schema.sql to create the data
+* Enter \i db/seeds.sql to seed the data
+* Enter \q
 * Then run the command node index.js to run the app.
 * The command prompt will begin on your terminal.
 
